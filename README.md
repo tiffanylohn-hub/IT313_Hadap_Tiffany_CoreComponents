@@ -13,12 +13,12 @@ who need academic advising.
 
 Components Used
 
-**StudentCard**
+StudentCard
 - Displays the student's profile picture.
 - Displays the student's name and year level.
 - Contains the Flag for Advising button.
 
-**StudentDirectory**
+StudentDirectory
 - Holds the student information using useState.
 - Displays student cards inside a ScrollView.
 - Handles name searching using TextInput.
@@ -35,10 +35,10 @@ React Native Core Components
 
 How to Run
 
-1. Install Node.js.
-2. Clone or download this repository.
-3. Open the project folder.
-4. Install this:
+Install Node.js.
+Open the project folder.
+
+Install this:
 
    npm install
 
@@ -51,6 +51,6 @@ Open the application using Expo Go
 
 
 
-Name: 
+Name: Hadap, Tiffany
 Course: IT313 - Mobile Programming
 Laboratory: 6

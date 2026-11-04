@@ -11,7 +11,7 @@ import {
   View,
 } from "react-native";
 
-// STUDENT INTERFACE
+
 interface Student {
   id: string;
   name: string;
@@ -20,7 +20,7 @@ interface Student {
   flagged: boolean;
 }
 
-// STUDENT CARD PROPS
+
 interface StudentCardProps {
   id: string;
   name: string;
@@ -30,7 +30,7 @@ interface StudentCardProps {
   onToggleFlag: (id: string) => void;
 }
 
-// STARTER STUDENT DATA
+
 const initialStudents = [
   {
     id: "s1",
@@ -64,7 +64,7 @@ const initialStudents = [
   },
 ];
 
-// STUDENT CARD COMPONENT
+
 function StudentCard({
   id,
   name,
@@ -106,7 +106,7 @@ function StudentCard({
   );
 }
 
-// STUDENT DIRECTORY COMPONENT
+
 export default function StudentDirectory() {
 
   // STUDENT STATE
@@ -117,10 +117,10 @@ export default function StudentDirectory() {
     }))
   );
 
-  // SEARCH STATE
+ 
   const [query, setQuery] = useState("");
 
-  // TOGGLE FLAG FUNCTION
+  
   function toggleFlag(id: string) {
     setStudents((previousStudents) =>
       previousStudents.map((student) =>
@@ -131,7 +131,7 @@ export default function StudentDirectory() {
     );
   }
 
-  // SEARCH FILTER
+
   const filteredStudents = students.filter((student) =>
     student.name
       .toLowerCase()
@@ -187,7 +187,7 @@ export default function StudentDirectory() {
   );
 }
 
-// STYLES
+
 const styles = StyleSheet.create({
 
   container: {
