@@ -38,19 +38,19 @@ How to Run
 1. Install Node.js.
 2. Clone or download this repository.
 3. Open the project folder.
-4. Install dependencies:
+4. Install this:
 
    npm install
 
-5. Start Expo:
+Then Start Expo:
 
    npx expo start
 
-6. Open the application using Expo Go
+Open the application using Expo Go
    or an emulator.
 
-Developer
 
-Name: POROL, RENIER T.
+
+Name: 
 Course: IT313 - Mobile Programming
 Laboratory: 6
